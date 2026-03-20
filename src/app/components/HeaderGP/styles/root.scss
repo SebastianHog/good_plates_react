@@ -1,0 +1,15 @@
+@use '@/styles/tokens' as *;
+
+.gp-header {
+  height: 5em;
+  width: 100vw;
+  box-shadow: inset 0px 32px 2em 1px rgba(0, 0, 0, 0.2);
+
+  .header-nav {
+    ul {
+      li {
+        font-size: $font-size-lg;
+      }
+    }
+  }
+}
