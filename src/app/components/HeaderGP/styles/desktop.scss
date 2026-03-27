@@ -1,0 +1,22 @@
+@use '@/styles/tokens' as *;
+@use '@/styles/utils' as *;
+
+@media (min-width: $mq-small) {
+  .gp-header {
+    .header-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      ul {
+        padding-right: toRem(120);
+        gap: toRem(32);
+        display: flex;
+
+        li {
+          font-size: $font-size-lg;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import HeaderGP from "./components/HeaderGP/HeaderGP";
 import "./globals.scss";
+import ClientLayout from "./components/ClientLayout/ClientLayout";
 
 export const metadata: Metadata = {
 	title: "GoodPlates - React",
@@ -15,8 +15,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>
-				<HeaderGP />
-				<main>{children}</main>
+				<ClientLayout>{children}</ClientLayout>
 			</body>
 		</html>
 	);

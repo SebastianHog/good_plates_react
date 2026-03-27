@@ -16,6 +16,7 @@
     ul {
       padding-right: toRem(120);
       gap: toRem(32);
+      display: none;
 
       li {
         font-size: $font-size-lg;

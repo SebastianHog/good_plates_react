@@ -1,0 +1,9 @@
+@use '@/styles/tokens' as *;
+@use '@/styles/utils' as *;
+
+.nav-sidebar {
+  height: 100vh;
+  position: absolute;
+  width: toRem(256);
+  background: $color-charcoal;
+}
