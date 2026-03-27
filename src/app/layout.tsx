@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import HeaderGP from "./components/HeaderGP/headerGP";
+import HeaderGP from "./components/HeaderGP/HeaderGP";
 import "./globals.scss";
 
 export const metadata: Metadata = {
