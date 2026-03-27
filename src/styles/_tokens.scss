@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
 // Colors
 $color-charcoal: #36382E;
 $color-lavendar: #7D8CA3;
@@ -5,6 +7,8 @@ $color-red: #AC3931;
 $color-white: #E1DEE3;
 
 // Font
+$font-family-base: "DM Mono", monospace;
+
 $font-size-2xs: 6px;
 $font-size-xs: 10px;
 $font-size-sm: 12px;
